@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT * name,age FROM bears WHERE gender = F"
+  "SELECT * name,age FROM bears WHERE gender=F;"
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
@@ -28,25 +28,4 @@ end
 
 def selects_bear_that_killed_Tim
   "SELECT name FROM bears WHERE name=NULL;"
-end
-
-
-def highest_student_gpa
-  "SELECT MAX(gpa) FROM students;"
-end
-
-def lowest_student_gpa
-  "SELECT MIN(gpa) FROM students;"
-end
-
-def average_student_gpa
-  "SELECT AVG(gpa) FROM students;"
-end
-
-def total_tardies_for_all_students
-  "SELECT SUM(tardies) FROM students;"
-end
-
-def average_gpa_for_9th_grade
-  "SELECT AVG(gpa) FROM students WHERE grade=9;"
 end
